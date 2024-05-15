@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    
+    background-image: url('../images/imag.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* background-color: black; */
+}
+
+
+    .container{
+        padding: 10px 2%;
+    
+    }
+    
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+}
+
+nav ul li{
+    padding: 0 50px 0 120px ;
+}
+
+nav ul {
+    /* display: inline-block; */
+    padding: 100px 0px 100px 80px;
+    display: flex;
+    margin-left: 220rem;
+  
+}
+nav ul li a{
+    color: white;
+     list-style: none;  
+      text-decoration: none;
+    font-size: 70px;
+}
+.header-text{
+    text-align: center;
+    margin: 50rem 0 0 140rem ;    
+}
+.header-text h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 150px;
+}
+.header-text .para{
+    padding-top: 5rem;
+    font-size: 90px;
+    opacity: 0.5;
+}
+.fa-twitter{
+    font-size: 80px;
+}
+.fa-facebook-f{
+    font-size: 80px;
+}
+.fa-linkedin-in{
+    font-size: 80px;
+}
+.fa-github{
+    font-size: 80px;
+}
+.fa-instagram{
+    font-size: 80px;
+}
+.icons{
+    display: inline-block;
+    padding: 5% 1px 0 95%;
+    align-items: center;
+    
+}
+.icons i{
+    padding: 40px;
+  
+}
